@@ -47,6 +47,10 @@ Use pivot tables and calculated columns where necessary to answer the following:
 Using your cleaned dataset and pivot outputs, build an Excel dashboard. Unleash your
 Creativity
 
+### Project Overview
+
+This data analysis project aims to generate insights that can guild product improvement, making strategies and customer engagement to a company that provides e-commerce analytic solution, by analysing the various parameter in the data received and to know the best performance from our data.
+
 
 
 
