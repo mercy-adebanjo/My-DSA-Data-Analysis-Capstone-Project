@@ -8,6 +8,9 @@ However, we shall be treating the Case Study 1:Amazon Product Review Analysis in
 ## Project Topic: Case Study 1: Amazon Product Review Analysis
 
  
+data set: Amazon case study.xlsx[Download Here](file://DESKTOP-RTIGE4V/Users/latitude%20dell/Documents/Amazon%20case%20study.xlsx)
+
+
 
 1. **Company Overview**
  
