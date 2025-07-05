@@ -8,7 +8,7 @@ However, we shall be treating the Case Study 1:Amazon Product Review Analysis in
 ## Project Topic: Case Study 1: Amazon Product Review Analysis
 
  
-Data set:[download the Excel file](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/commits?author=mercy-adebanjoAmazon)
+Data set:[download here the Excel file](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/Amazon%20case%20study.xlsx)
 
 
 
