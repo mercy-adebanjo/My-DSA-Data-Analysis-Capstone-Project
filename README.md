@@ -5,12 +5,19 @@ It is an amazing time to learn under the Incubator Hub and here is the documenta
 However, we shall be treating the Case Study 1:Amazon Product Review Analysis in this Resipository.The Project topic contains, Case study 1 data set, Amazon company overview, description of data sets and requirements.
 
 
+## Project Overview
+
+This data analysis project aims to generate insights that can guild product improvement, making strategies and customer engagement to a company that provides e-commerce analytic solution, by analysing the various parameter in the data received and to know the best performance from our data.
+
+
+
 ## Project Topic: Case Study 1: Amazon Product Review Analysis
 
  
-Data set:[download here the Excel file](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/Amazon%20case%20study.xlsx)
+### Data set: [download here the Excel file](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/Amazon%20case%20study.xlsx)
 
 
+Below are some of the questions attached to the data set:
 
 1. **Company Overview**
  
@@ -49,11 +56,6 @@ Use pivot tables and calculated columns where necessary to answer the following:
 4. Final Task: Dashboard Creation
 Using your cleaned dataset and pivot outputs, build an Excel dashboard. Unleash your
 Creativity
-
-### Project Overview
-
-This data analysis project aims to generate insights that can guild product improvement, making strategies and customer engagement to a company that provides e-commerce analytic solution, by analysing the various parameter in the data received and to know the best performance from our data.
-
 
 
 
