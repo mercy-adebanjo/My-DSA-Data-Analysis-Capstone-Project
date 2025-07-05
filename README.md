@@ -101,7 +101,9 @@ These include, step by steps of the Analysis of the Dataset.The analysis are the
 -  Use your filter tool to validate each columns's values in  Column (DFGKL)
 -  For the ones with blank cell,You have 2 options here - either to uncheck this particular row OR you go further to visit the product site as provided in cell T1167.Here I     uncheked the blank row,since it is not a real life situation.
 -  Next is calculated Column
--  [download]()
+-  **Below  are the Calculated Columns**
+     - Price Range Bucket was calculate using if fuctions =IF(D2<200,"< ₹200",IF(D2<=500,"₹200–₹500","> ₹500")).drag this function down the column
+-  [download My Calculate table here](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/My%20Amazon%20Calculated%20Table.xlsx)
 -  [download my Pivote Analysi](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/My%20Amazon%20Calculated%20Table.xlsx)
   
 
