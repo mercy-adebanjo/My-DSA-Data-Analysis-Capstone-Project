@@ -57,5 +57,8 @@ Use pivot tables and calculated columns where necessary to answer the following:
 Using your cleaned dataset and pivot outputs, build an Excel dashboard. Unleash your
 Creativity
 
+### Data Source
+
+The primary data source used here is (xlsx) provided by DSA Incubator Hub.Here is the link [download here the Excel file](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/Amazon%20case%20study.xlsx)
 
 
