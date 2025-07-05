@@ -119,7 +119,7 @@ These include, step by steps of the Analysis of the Dataset.The analysis are the
 
 #### Steps taking to anwser the question under EDA are: 
 
-- 1. Average discount percentage by product category
+- 1.Average discount percentage by product category
 Add a calculated column:
 = (Actual Price - Discounted Price) / Actual Price * 100
 
@@ -128,7 +128,7 @@ Then use a Pivot Table:
 Rows: Category
 
 Values: Discount % → summarize by Average
-- 2. How many products are listed under each category
+- 2.How many products are listed under each category
 Pivot Table:
 
 Rows: Category
@@ -142,18 +142,18 @@ Pivot Table:
 Rows: Category
 
 Values: Rating Count → Sum
-- 4. Which products have the highest average ratings
+- 4.Which products have the highest average ratings
 Sort your dataset by the Average Rating column (descending)
 
 Pick top entries
-- 5. Average actual price vs discounted price by category
+- 5.Average actual price vs discounted price by category
 Pivot Table:
 
 Rows: Category
 
 Values: Actual Price → Average
 Discounted Price → Average 
-- 6. Which products have the highest number of reviews
+- 6.Which products have the highest number of reviews
 Sort Rating Count column in descending order
 - 7.How many products have a discount of 50% or more
 Add calculated column:
@@ -166,7 +166,7 @@ Pivot Table:
 Rows: Rating (rounded if needed)
 
 Values: Product Name → Count.  
-- 9. Total potential revenue by category (Actual Price × Rating Count)
+- 9.Total potential revenue by category (Actual Price × Rating Count)
 Add calculated column:
 =Actual Price * Rating Count
 
@@ -175,7 +175,7 @@ Pivot Table:
 Rows: Category
 
 Values: Potential Revenue → Sum
-- 10. Number of unique products per price range bucket
+- 10.Number of unique products per price range bucket
 Create new column Price Bucket:
 
 
@@ -186,12 +186,12 @@ Pivot Table:
 Rows: Price Bucket
 
 Values: Product Name → Count
-- 11. How does the rating relate to the level of discount
+- 11.How does the rating relate to the level of discount
 Create a scatter chart:
 
 X-axis: Discount %
 
-Y-axis: Average Rating. (i am not sure if all excel version has scatter chat.).   alternative to scatter chat, this is a longer route thou. (take your time and you'll get it.) Line Chart (Grouped by Discount Ranges)
+Y-axis: Average Rating. 
 Steps:
 
 Create a new column that groups Discount % into buckets like:
@@ -208,11 +208,11 @@ Rows: Discount Bucket
 Values: Average Rating → summarize as Average
 
 Insert a line chart to show trend of average rating across discount buckets
- - 12. How many products have fewer than 1,000 reviews
+ - 12.How many products have fewer than 1,000 reviews
 Filter Rating Count < 1000
 
 Use COUNT or check the status bar, count is there.
-- 13. Which categories have products with the highest discounts
+- 13.Which categories have products with the highest discounts
 Use the earlier Discount % column
 
 Pivot Table:
@@ -220,7 +220,7 @@ Pivot Table:
 Rows: Category
 
 Values: Discount % → Max
-- 14. Top 5 products by rating + number of reviews combined
+- 14.Top 5 products by rating + number of reviews combined
 Create calculated column:
 =Average Rating + (Rating Count / Scaling Factor)
 (Choose a factor like 1000 to balance weight)
@@ -228,4 +228,12 @@ Create calculated column:
 Sort descending and pick top 5.
 #### My Dash 
 My dash board was calculated using my Pivot Analysis, below is the link to my Dash board
-[download head](
+[download here](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/Amazon%20Dash%20Board.xlsx)
+
+ ## Limitation
+ This project expository and ,analysis is limited by material and a litle time frame.
+
+ ## Referencies
+ - 1. Class notes
+ - 2. DSA Youtube lectures
+ - 3. CHATGPT
