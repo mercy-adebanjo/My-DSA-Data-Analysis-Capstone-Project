@@ -237,3 +237,4 @@ My dash board was calculated using my Pivot Analysis, below is the link to my Da
  - 1. Class notes
  - 2. DSA Youtube lectures
  - 3. CHATGPT
+ - 4. [dowload my workings here](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/Project%201%20Amazon%20case%20study%20.xlsx)
