@@ -46,7 +46,8 @@ The primary data source used here is (xlsx) provided by DSA Incubator Hub.Here i
  - Data cleaning
  - Data manipultion
  - Data munching
- - 
+
+   
 #### Data Cleanig  and Preparation
 In the initial phase of the data cleaning and preparations,we perform the following actions;
 - Data loading and inspection
@@ -100,5 +101,7 @@ These include, step by steps of the Analysis of the Dataset.The analysis are the
 -  Use your filter tool to validate each columns's values in  Column (DFGKL)
 -  For the ones with blank cell,You have 2 options here - either to uncheck this particular row OR you go further to visit the product site as provided in cell T1167.Here I     uncheked the blank row,since it is not a real life situation.
 -  Next is calculated Column
+-  [download]()
+-  [download my Pivote Analysi](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/My%20Amazon%20Calculated%20Table.xlsx)
   
 
