@@ -17,7 +17,7 @@ This data analysis project aims to generate insights that can guild product impr
 ### Data set: [download here the Excel file](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/Amazon%20case%20study.xlsx)
 
 
-Below are some of the questions attached to the data set:
+Below are other informations  attached to the data set:
 
 1. **Company Overview**
  
@@ -35,7 +35,26 @@ The dataset contains information scraped from Amazon product pages, including:
 stored as comma-separated values
 Total Records: 1,465 rows
 TotalFields: 16 columns
-5. Analysis Tasks
+5. 
+
+### Data Source
+
+The primary data source used here is (xlsx) provided by DSA Incubator Hub.Here is the link [download here the Excel file](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/Amazon%20case%20study.xlsx)
+
+### Tools Used
+- MS Excel
+ - Data cleaning
+ - Data manipultion
+ - Data munching
+ - 
+#### Data Cleanig  and Preparation
+In the initial phase of the data cleaning and preparations,we perform the following actions;
+- Data loading and inspection
+- Handling missings variables
+- Data cleaning and formatting
+
+### Expository data Analysis
+EDA involves the exploring of data to answers some questions about the data.some of this questions are :
 Use pivot tables and calculated columns where necessary to answer the following:
 1. What is the average discount percentage by product category?
 2. How many products are listed under each category?
@@ -57,15 +76,6 @@ Use pivot tables and calculated columns where necessary to answer the following:
 Using your cleaned dataset and pivot outputs, build an Excel dashboard. Unleash your
 Creativity
 
-### Data Source
-
-The primary data source used here is (xlsx) provided by DSA Incubator Hub.Here is the link [download here the Excel file](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/Amazon%20case%20study.xlsx)
-
-### Tools Used
-- MS Excel
- - Data cleaning
- - Data manipultion
- - Data munching
-
+### Data Analysis 
 
 
