@@ -78,4 +78,27 @@ Creativity
 
 ### Data Analysis 
 
+These include, step by steps of the Analysis of the Dataset.The analysis are thereby stated below:
+- Ultimate Underlying Assumption: No product should have more than a record since its all about reviews and ratings.
+- So to get that done with your dataset, you'll need remove duplicated Product_Id.
+- So to confirm if there are duplicated products simply because of the nature of info we are required to get insight on, you need to do this.
+- Click any cell within your dataset and apply Ctrl + A to highlight all the data.
+- So while still highlighted, click your Data Tab.
+- Goto highlight duplicate, then remove duplicate.
+- Click on unselect All first and click on product id.
+- After  a message pops up after removing duplicates.
+- Now that you have your Unique/Distinct Products, NEXT is CATEGORY
+- Right click on the category column and click copy or go to the home tab and copy
+- Paste in the new worksheet: only the category column and proceed do text to column
+- seperate them using delimetre common to it(|)
+- pick the first one and  give it a name it,here I gave it "Category" or "Main Categoty"
+- Do the same for product
+-  The question would be why? Yeah, because its "multi-level Product" same as Category.
+-  Insert the newly created Category and Product,then delte the old ones in your dataset.
+-  Then go ahead and delete that sheet for the category-splits as if nothing has happened there.
+-  Confirm that columns H to L values are reliable. How do you do that?
+-  Use your filter tool to validate each columns's values in  Column (DFGKL)
+-  For the ones with blank cell,You have 2 options here - either to uncheck this particular row OR you go further to visit the product site as provided in cell T1167.Here I     uncheked the blank row,since it is not a real life situation.
+-  Next is calculated Column
+  
 
