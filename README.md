@@ -101,9 +101,20 @@ These include, step by steps of the Analysis of the Dataset.The analysis are the
 -  Use your filter tool to validate each columns's values in  Column (DFGKL)
 -  For the ones with blank cell,You have 2 options here - either to uncheck this particular row OR you go further to visit the product site as provided in cell T1167.Here I     uncheked the blank row,since it is not a real life situation.
 -  Next is calculated Column
--  **Below  are the Calculated Columns**
-     - Price Range Bucket was calculate using if fuctions =IF(D2<200,"< ₹200",IF(D2<=500,"₹200–₹500","> ₹500")).drag this function down the column
--  [download My Calculate table here](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/My%20Amazon%20Calculated%20Table.xlsx)
--  [download my Pivote Analysi](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/My%20Amazon%20Calculated%20Table.xlsx)
+   **Below  are the Calculated Columns**
+     - Price Range Bucket was calculate using if fuctions =IF(D2<200,"< ₹200",IF(D2<=500,"₹200–₹500","> ₹500")).drag this function down the column.
+     - Discount Band was calculate using if fuctions=IF(G2<=10%,"1%-10%",IF(G2<=20%,"11%-20%",IF(G2<=30%,"21%-30%",IF(G2<=40%,"31%-40%",
+       IF(G2<=50%,"41%-50%",IF(G2<=60%,"51%-60%",IF(G2<=70%,"61%-70%",IF(G2<=80%,"71%-80%",IF(G2<=90%,"81%-90%",IF(G2<=100%,"91%-100%"))))))))))
+     - Discount Range, calculated with if function,=IF(G2>=50%,"= or more than 50%","less  than 50%")
+     - Rating and rating Count Combined  was calculate by =K2*L2
+     - Lower Reviewed was calculate using if fuctions =IF(L2<1000,"Yes","No")
+     - Total Potential Revenue was calculate by multiplying =F2*L2
+
+  #### Table Analysis
+ All the stated above analysis is done in the table  here [download My Calculated table here](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/My%20Amazon%20Calculated%20Table.xlsx)
+
+ #### Pivot Analysis
+ My Pivot Analysis was done using the above Table Analysis.
+ [download here my Pivote Analysis](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/My%20Amazon%20Calculated%20Table.xlsx)
   
 
