@@ -61,4 +61,11 @@ Creativity
 
 The primary data source used here is (xlsx) provided by DSA Incubator Hub.Here is the link [download here the Excel file](https://github.com/mercy-adebanjo/My-DSA-Data-Analysis-Capstone-Project/blob/main/Amazon%20case%20study.xlsx)
 
+### Tools Used
+- MS Excel
+ - Data cleaning
+ - Data manipultion
+ - Data munching
+
+
 
